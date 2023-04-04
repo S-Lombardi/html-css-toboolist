@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+/* HEADER */
+header{
+    background-color: white;
+    height: 90px;
+    padding-top: 15px;
+}
+
+#logo{
+    padding-left: 20px;
+ 
+    vertical-align: middle;
+}
+
+#text-logo{
+
+    font-size: 50px;
+
+    vertical-align: middle;
+
+}
