@@ -8,6 +8,10 @@ body{
     background-color: rgb(220, 220, 220);
 }
 
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
 header{
     background-color: white;
@@ -23,6 +27,9 @@ header{
 #text-logo{
     font-size: 50px;
     vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
 }
 
 #buttom-task{
@@ -50,8 +57,10 @@ header{
     margin: auto;
 }
 
-.box-buttom{
-    padding: 30px;
+.box-button{
+    padding-left: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
     margin-top: 40px;
     background-color: white;
     width: 100%;
@@ -66,28 +75,60 @@ header{
     background-color: white;
     width: 100%;
     border-radius: 4px;
-
 }
 
 ul{
     list-style-type: none;
-
 }
 
-.color-oval{
-    display: inline;
+.title-task{
+    color: rgb(69, 69, 69);
+    font-size:22px;
+    font-weight: bold;
+}
 
-
+.task {
+    margin-top:20px;
+}
+.section span {
+    font-size: 60px !important;
+}
+.descrizione-task {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.eseguito {
+    border: 1px green solid;
+    color: green;
+}
+.non-eseguito {
+    border: 1px red solid;
+    color: red;
 }
 .cerchio {
-    border: 1px green solid;
     border-radius: 100%;
-    padding: 4px;
-    width: 10px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
 }
-.etichetta {
-    background-color: red;
+.label {
+    margin-left: 10px;
     border-radius: 10px;
     padding: 5px;
+}
+.label-editorial{
+    background-color: rgb(23, 189, 255);
     color: white
+}
+
+.label-goals{
+    background-color: rgb(191, 0, 255);
+    color: white
+}
+
+.space-title-task{
+    margin-top: 35px;
 }
