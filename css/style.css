@@ -9,13 +9,14 @@ body{
 }
 
 main{
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
 }
 
 /* HEADER */
 header{
     background-color: white;
-    height: 90px;
+    height: 80px;
     padding-top: 15px;
 }
 
@@ -25,7 +26,7 @@ header{
 }
 
 #text-logo{
-    font-size: 50px;
+    font-size: 40px;
     vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -65,7 +66,7 @@ header{
     width: 100%;
     border-radius: 4px;
 }
-/* Bottoni */
+/* Fine Bottoni */
 
 /* LISTE */
 .box-liste{
@@ -118,41 +119,41 @@ ul{
     display: inline-block;
     text-align: center;
 }
+/* Fine LISTE */
 
 /* Etichette colorate */
 .label {
-    margin-left: 10px;
-    border-radius: 10px;
-    padding: 5px;
+    margin-left: px;
+    border-radius: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 10px;
 }
 .label-editorial{
     background-color: #45abea;
-    color: white
 }
 
 .label-goals{
     background-color:#996ee3;
-    color: white
 }
 
 .label-recruiting{
     background-color: #5ebda5;
-    color: white
 }
 
 .label-mobile{
     background-color:#f29e33;
-    color: white
 }
  
 .label-website{
     background-color:#d863a1;
-    color: white
-
 }
 
 .label-sales{
     background-color:#b0c926;
-    color: white;
 }
+/* Fine Etichette colorate */
 
