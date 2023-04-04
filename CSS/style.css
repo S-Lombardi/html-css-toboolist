@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(220, 220, 220);
 }
 
 /* HEADER */
@@ -24,4 +24,70 @@ header{
     font-size: 50px;
     vertical-align: middle;
 }
+
+#buttom-task{
+    border: none;
+    background-color: rgb(23, 189, 255);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#buttom-section{
+    border: solid 1px rgb(186, 186, 186);
+    background-color: white;
+    padding: 10px;
+    color: rgb(176, 176, 176);
+    border-radius: 5px;
+}
 /* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* Bottoni */
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.box-buttom{
+    padding: 30px;
+    margin-top: 40px;
+    background-color: white;
+    width: 100%;
+    border-radius: 4px;
+}
+/* Bottoni */
+
+/* LISTE */
+.box-liste{
+    padding: 50px;
+    margin-top: 3px;
+    background-color: white;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+.color-oval{
+    display: inline;
+
+
+}
+.cerchio {
+    border: 1px green solid;
+    border-radius: 100%;
+    padding: 4px;
+    width: 10px;
+}
+.etichetta {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: white
+}
